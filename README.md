@@ -1,151 +1,144 @@
-# 🔆 Dual-Axis Solar Tracker
-
-Arduino & ESP32-based solar tracking system that maximizes energy output by automatically following the sun's movement in two axes (horizontal & vertical). Designed for EV charging stations and off-grid solar applications.
-
-[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://arduino.cc)
-[![ESP32](https://img.shields.io/badge/ESP32-3C92D3?style=for-the-badge&logo=esp32&logoColor=white)](https://espressif.com)
-[![Solar](https://img.shields.io/badge/Solar-Energy-FFD700?style=for-the-badge&logo=sun&logoColor=black)](https://en.wikipedia.org/wiki/Solar_energy)
-
----
-
-## 📖 Project Overview
-
-### 🎯 Objective
-Increase solar panel efficiency by 30-40% compared to fixed-position panels through real-time sun tracking.
-
-### 🚀 Key Features
-- Dual-axis tracking: Horizontal (azimuth) & vertical (elevation) movement
-- Light sensor array: 4x LDRs for precise sun position detection
-- Smooth servo control: SG90 motors with optimized movement algorithms
-- IoT integration (ESP32 version): Remote monitoring via Blynk app
-- Energy monitoring: Real-time power output tracking
-- Weatherproof design: Suitable for outdoor EV charging stations
-
-### 📊 Performance Results
-| Setup Type | Peak Output | Efficiency Gain | Cost |
-|------------|-------------|-----------------|------|
-| Fixed Panel | 6.2W | Baseline (100%) | ₹500 |
-| Single-Axis Tracker | 7.1W | +15% | ₹1200 |
-| Dual-Axis Tracker | 8.4W | +35% | ₹1800 |
-
----
-
-## 🛠️ Technical Specifications
-
-### 📸 Hardware Components
-| Component | Quantity | Specifications | Approx. Cost |
-|-----------|----------|----------------|--------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹500 |
-| ESP32 DevKit | 1 | Dual-core, WiFi/BLE | ₹600 |
-| SG90 Servo Motor | 2 | 9g, 180° rotation | ₹150 each |
-| LDR (Light Dependent Resistor) | 4 | 5mm, 10kΩ | ₹20 each |
-| 10W Solar Panel | 1 | Polycrystalline, 12V | ₹800 |
-| 10kΩ Resistor | 4 | 1/4W carbon film | ₹5 each |
-| Breadboard | 1 | 830 points | ₹100 |
-| Jumper Wires | 20 | Male-to-male | ₹50 |
-| Power Bank | 1 | 5V/2A USB output | ₹300 |
-
-Total Estimated Cost: *₹2500* (₹1800 without solar panel)
-
-### ⚙️ Software Stack
-- Arduino IDE v1.8.19+ for code upload
-- Blynk IoT for remote monitoring (ESP32 version)
-- Serial Monitor for debugging
-- CSV data logging for performance analysis
-
----
-
-## 🔌 Circuit Diagram & Wiring
-
-### 🔗 Pin Connections
-| Component | Arduino Pin | ESP32 Pin | Purpose |
-|-----------|-------------|-----------|---------|
-| Servo 1 (Horizontal) | Pin 9 (PWM) | GPIO 18 | Azimuth control |
-| Servo 2 (Vertical) | Pin 10 (PWM) | GPIO 19 | Elevation control |
-| LDR 1 (East) | A0 | ADC1_CH0 | East light sensor |
-| LDR 2 (West) | A1 | ADC1_CH1 | West light sensor |
-| LDR 3 (North) | A2 | ADC1_CH2 | North light sensor |
-| LDR 4 (South) | A3 | ADC1_CH3 | South light sensor |
-| Power | 5V, GND | 3.3V, GND | Power supply |
-
----
-
-## 💻 Complete Arduino Code
-
-### 🌟 Main Code: solar_tracker.ino
-
-File: solar_tracker.ino (neeche alag section mein code hai)
-
----
-
-## 🔧 Setup & Installation Guide
-
-### 📋 Step-by-Step Assembly
-
-1. Prepare Components
-   - Mount 2x SG90 servos in perpendicular configuration
-   - Attach 10W solar panel to servo platform
-   - Position 4x LDR sensors at 90° intervals around panel
-
-2. Code Upload
-   - Open Arduino IDE → File → Open → solar_tracker.ino
-   - Select board: Arduino Uno
-   - Select port: COM3 (or your port)
-   - Click Upload (→ button)
-
-3. Initial Calibration
-   - Power on system in shaded area
-   - Wait for 2-second initialization
-   - Place in sunlight → System auto-calibrates
-
----
-
-## 📈 Testing & Results
-
-### 📊 Performance Data
-
-| Time | Fixed Panel (V) | Fixed Panel (W) | Tracker (V) | Tracker (W) | Efficiency Gain |
-|------|-----------------|-----------------|-------------|-------------|-----------------|
-| 10:00 AM | 11.8V | 4.2W | 11.9V | 4.8W | +14% |
-| 12:00 PM | 12.3V | 6.2W | 12.4V | 8.4W | +35% |
-| 2:00 PM | 11.5V | 4.8W | 11.7V | 6.1W | +27% |
-| 4:00 PM | 10.2V | 2.9W | 10.5V | 3.8W | +31% |
-
-Average Daily Gain: *+26.75% | *Total Extra Energy: **1.8 kWh/year
-
----
-
-## 🚀 Applications & Use Cases
-
-### 🔌 EV Charging Integration
-- Solar-powered EV charging stations
-- Off-grid charging for rural areas
-- Battery backup systems with solar input
-- Portable EV chargers for emergency use
-
----
-
-## 🛠️ Troubleshooting Guide
-
-| Problem | Symptoms | Solution |
-|-------------|--------------|--------------|
-| Servos not moving | No response to light changes | Check 5V power supply, servo wiring |
-| Erratic tracking | Jerky movements, wrong direction | Adjust tolerance value (50-100) |
-| LDRs not reading | All sensors show 0 or 1023 | Verify 10kΩ resistors, check analog pins |
-
----
-
-## 📄 License & Credits
-
-### 👨‍💻 Author
-Sam EV Tech  
-EV Power Electronics Engineer | Tata IIS Mumbai | ESP32 Developer  
-[GitHub Profile](https://github.com/SamEVTech) | [LinkedIn](https://linkedin.com/in/Sam-EVTech)
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Working%20Prototype-brightgreen?style=for-the-badge&logo=checkmark&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Efficiency-Gain%2035%25-orange?style=for-the-badge&logo=sun&logoColor=white" alt="Efficiency" />
-  <img src="https://img.shields.io/badge/Cost-%25E2%82%B91800-blue?style=for-the-badge&logo=money&logoColor=white" alt="Cost" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Hey+There!+I'm+Sam...;EV+Specialist+%40+Tata+IIS+Mumbai;Power+Electronics+%26+BMS+Engineer;Arduino+%26+ESP32+Innovator;Building+the+Electric+Future!+%F0%9F%9A%97%E2%9A%A1%EF%B8%8F" alt="Typing SVG" />
 </div>
 
-⚡️ Built with passion for sustainable energy | Ready for EV charging revolution! 🚀
+---
+
+## 🔋 About Me
+*ITI Electrician* turned *EV Power Electronics Specialist* at *Tata IIS Mumbai. I’m passionate about **EV Battery Systems, **BMS, **Power Electronics, and **IoT solutions. From tearing down gadgets to coding **Arduino/ESP32, I build **hands-on prototypes* that power the electric future. 🚀
+
+"Circuits are my canvas, and code is my brush – let’s electrify the world!"
+
+---
+
+## 🎓 My Journey
+- *EV 2 & 3 Wheeler Specialist* @ Tata IIS Mumbai
+- Mastering *Battery Management Systems* & *Power Electronics*
+- Developing *IoT-enabled EV charging* solutions
+- Building *real-world projects* in EV, automation, and assistive tech
+
+---
+
+## 🛠️ Technical Toolkit
+<table>
+  <tr>
+    <td><b>EV & Power Systems</b></td>
+    <td><b>Electronics & Hardware</b></td>
+    <td><b>Programming & IoT</b></td>
+  </tr>
+  <tr>
+    <td>
+      🔋 EV Battery Systems (Li-ion)<br>
+      🛡️ BMS Design & Protection<br>
+      ⚡ Power Electronics (Inverters)<br>
+      🔌 EV Charging Protocols
+    </td>
+    <td>
+      🔓 Gadget Teardown & Analysis<br>
+      🛠️ PCB Design & Prototyping<br>
+      📐 Precision Soldering<br>
+      🔧 Diagnostic Tools (Oscilloscope)
+    </td>
+    <td>
+      🎛️ Arduino & ESP32 Programming<br>
+      📡 IoT (MQTT, Blynk)<br>
+      💻 C++ & Firmware Development<br>
+      🖥️ CAN Bus & Vehicle ECU
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/ESP32-3C92D3?style=flat-square&logo=esp32&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/BMS-4CAF50?style=flat-square&logo=voltmeter&logoColor=white" alt="BMS" />
+  <img src="https://img.shields.io/badge/CAN-Bus-2196F3?style=flat-square&logo=car&logoColor=white" alt="CAN Bus" />
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+### 🔆 *Dual-Axis Solar Tracker* (Featured)
+<img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+- *Arduino Uno + ESP32* for solar panel tracking
+- *35% efficiency boost* with dual-axis movement
+- *IoT monitoring* via Blynk for EV charging
+- *Tested in Mumbai sunlight* with 8.4W peak output
+- [Explore Project →](https://github.com/SamEVTech/Dual-Axis-Solar-Tracker)
+
+### 🔋 *EV Battery Management System (BMS)*
+<img src="https://img.shields.io/badge/BMS-4CAF50?style=flat-square&logo=voltmeter&logoColor=white" alt="BMS" />
+- *ESP32-based* battery monitoring for 48V Li-ion packs
+- Tracks *voltage, current, temperature* with NTC sensors
+- *CAN Bus integration* for vehicle ECU communication
+- *Safety features*: Overcharge & thermal protection
+- [Explore Project →](https://github.com/SamEVTech/EV-BMS-Prototype)
+
+### 📱 *iPhone Teardown Analysis*
+<img src="https://img.shields.io/badge/Teardown-FF6B35?style=flat-square&logo=tools&logoColor=white" alt="Teardown" />
+- Full *iPhone 12 disassembly* with PCB mapping
+- Analyzed *battery, BGA chips, power ICs*
+- *Repair guide* for battery replacement
+- *Learnings*: Apple’s thermal & power design
+- [Explore Project →](https://github.com/SamEVTech/iPhone-Teardown-Analysis)
+
+### 🌿 *Industrial Carbon Purification System*
+<img src="https://img.shields.io/badge/Environmental-228B22?style=flat-square&logo=leaf&logoColor=white" alt="Environmental" />
+- *Arduino-controlled* carbon filtration for CO2 & NOx
+- *Sensor array*: PM2.5, temperature, humidity
+- *Data logging* with PDF reports for efficiency
+- Built for *small-scale factories*
+- [Explore Project →](https://github.com/SamEVTech/Carbon-Purification-System)
+
+### 👓 *Smart Glasses for Visually Impaired*
+<img src="https://img.shields.io/badge/Assistive-Tech-800080?style=flat-square&logo=eye&logoColor=white" alt="Assistive Tech" />
+- *ESP32 + Ultrasonic sensors* for obstacle detection
+- *Haptic & audio feedback* for navigation
+- Lightweight design with *200cm range*
+- Real-world impact for accessibility
+- [Explore Project →](https://github.com/SamEVTech/Smart-Glasses-for-Blind)
+
+---
+
+## 📸 My EV Lab
+<div align="center">
+  <img src="https://github.com/SamEVTech/SamEVTech/blob/main/ev_lab.jpg?raw=true" width="400" alt="EV Lab" />
+  <p><i>My workbench: Oscilloscope, BMS test bench, Arduino & ESP32 boards!</i></p>
+</div>
+
+---
+
+## 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SamEVTech&show_icons=true&theme=radical&hide_border=true&title_color=00D4FF&text_color=FFFFFF&bg_color=0D1117" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SamEVTech&theme=radical&hide_border=true" width="38%" />
+</div>
+
+---
+
+## 🏆 Lessons from the Lab
+- *BMS is about safety first, then efficiency* 🔋
+- *ESP32’s WiFi is powerful but needs power management* 📡
+- *Teardowns reveal engineering secrets* 🔓
+- *Every prototype failure teaches a new trick* 💡
+- *Sustainable tech starts with small, practical solutions* 🌿
+
+---
+
+## 🌐 Connect with Me
+<div align="center">
+  <a href="mailto:samirmulla2007@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com/in/Sam-EVTech">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/_samir_m___">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</div>
+
+---
+
+⚡️ Hands-on EV Specialist | IoT Innovator | Powering the Electric Revolution
