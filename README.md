@@ -87,7 +87,7 @@
 - *Safety features*: Overcharge, over-discharge, thermal protection
 - *Communication*: CAN bus integration for vehicle ECU
 - *Status*: Prototype tested with 48V pack
-- [View BMS Project →](https://github.com/YOUR_USERNAME/EV-BMS-Prototype)
+- [View BMS Project →](https://github.com/SamEVTech/EV-BMS-Prototype)
 
 ### 🔆 *Dual-Axis Solar Tracker* (EV Charging Application)
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
@@ -95,7 +95,7 @@
 - *Maximum Power Point Tracking (MPPT)* for solar EV charging
 - *35% efficiency improvement* over fixed panels
 - *IoT integration* for remote monitoring via Blynk app
-- [View Project →](https://github.com/YOUR_USERNAME/Dual-Axis-Solar-Tracker)
+- [View Project →](https://github.com/SamEVTech/Dual-Axis-Solar-Tracker)
 
 ### 📱 *iPhone Teardown & PCB Analysis* (Featured)
 <img src="https://img.shields.io/badge/Reverse-Engineering-FF6B35?style=for-the-badge&logo=tools&logoColor=white" alt="Reverse Engineering" />
@@ -104,7 +104,7 @@
 - *Signal tracing* & *schematic reconstruction*
 - *Repair guide* with *battery replacement procedure*
 - *Learning*: Apple's power delivery & thermal management
-- [View Teardown →](https://github.com/YOUR_USERNAME/iPhone-Teardown-Analysis)
+- [View Teardown →](https://github.com/SamEVTech/iPhone-Teardown-Analysis)
 
 ### ⚡ *Transmission Line Fault Detection System*
 <img src="https://img.shields.io/badge/Power-Systems-FFD700?style=for-the-badge&logo=bolt&logoColor=black" alt="Power Systems" />
@@ -113,7 +113,7 @@
 - *IoT alerts* via MQTT to central control room
 - *Accuracy*: 95% fault detection within 100ms
 - *Application*: Smart grid & EV charging infrastructure
-- [View Project →](https://github.com/YOUR_USERNAME/Transmission-Line-Fault-Detection)
+- [View Project →](https://github.com/SamEVTech/Transmission-Line-Fault-Detection)
 
 ### 🌿 *Industrial Carbon Purification System*
 <img src="https://img.shields.io/badge/Environmental-Tech-228B22?style=for-the-badge&logo=leaf&logoColor=white" alt="Environmental" />
@@ -122,7 +122,7 @@
 - *Automated valve control* based on pollution levels
 - *Data logging* & *efficiency reporting* (PDF format)
 - *Application*: Small factories, EV manufacturing plants
-- [View Project →](https://github.com/YOUR_USERNAME/Carbon-Purification-System)
+- [View Project →](https://github.com/SamEVTech/Carbon-Purification-System)
 
 ### 👓 *Smart Assistive Glasses for Visually Impaired*
 <img src="https://img.shields.io/badge/Assistive-Tech-800080?style=for-the-badge&logo=eye&logoColor=white" alt="Assistive Tech" />
@@ -131,7 +131,7 @@
 - *Battery management* with *low-power modes*
 - *Range*: 5cm-200cm detection, 360° coverage
 - *Impact*: Navigation aid for daily activities
-- [View Project →](https://github.com/YOUR_USERNAME/Smart-Glasses-for-Blind)
+- [View Project →](https://github.com/SamEVTech/Smart-Glasses-for-Blind)
 
 ### 💡 *Smart Home Energy Management System*
 <img src="https://img.shields.io/badge/Home-Automation-1E90FF?style=for-the-badge&logo=home-assistant&logoColor=white" alt="Home Automation" />
@@ -140,7 +140,7 @@
 - *Mobile app control* via *Blynk IoT platform*
 - *Energy savings*: 15-20% reduction in electricity bills
 - *Features*: Schedule automation, voice control (Alexa)
-- [View Project →](https://github.com/YOUR_USERNAME/Smart-Home-Energy-Management)
+- [View Project →](https://github.com/SamEVTech/Smart-Home-Energy-Management)
 
 ### 🔌 *EV Power Electronics Test Bench*
 <img src="https://img.shields.io/badge/Power-Electronics-FF9800?style=for-the-badge&logo=circuit-diagram&logoColor=white" alt="Power Electronics" />
@@ -149,7 +149,7 @@
 - *Load testing* with resistive & inductive loads
 - *Efficiency measurement*: 92% at 48V/10A
 - *Application*: On-board charger, DC-DC converter design
-- [View Project →](https://github.com/YOUR_USERNAME/EV-Power-Electronics-Test-Bench)
+- [View Project →](https://github.com/SamEVTech/EV-Power-Electronics-Test-Bench)
 
 ---
 
@@ -167,7 +167,7 @@
 
 ## 📸 My Lab Setup
 <div align="center">
-  <img src="https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/main/ev_lab.jpg?raw=true" width="400" alt="EV Lab" />
+  <img src="https://github.com/SamEVTech/SamEVTech/blob/main/ev_lab.jpg?raw=true" width="400" alt="EV Lab" />
   <p><i>EV Power Electronics Lab: Oscilloscope, Power Supply, BMS Test Bench, ESP32 Dev Boards</i></p>
 </div>
 
@@ -175,8 +175,8 @@
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical&hide_border=true&title_color=00D4FF&text_color=FFFFFF&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical&hide_border=true" width="38%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SamEVTech&show_icons=true&theme=radical&hide_border=true&title_color=00D4FF&text_color=FFFFFF&bg_color=0D1117" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SamEVTech&theme=radical&hide_border=true" width="38%" />
 </div>
 
 ---
@@ -192,23 +192,17 @@
 
 ## 🌐 Let's Connect
 <div align="center">
-  <a href="mailto:samirdastagirmulla@gmail.com">
+  <a href="mailto:samirmulla2007@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/samevtech">
+  <a href="https://linkedin.com/in/samir-mulla">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://instagram.com/samevtech">
+  <a href="https://instagram.com/_samir_m__">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=00D4FF" alt="Profile Views" />
-  <br>
-  <img src="https://img.shields.io/badge/Built%20with-EV%20Passion-00D4FF?style=for-the-badge&logo=electric-car&logoColor=white" alt="EV Passion" />
-</div>
 
 ⚡️ EV Power Electronics | BMS Specialist | ESP32 Developer | Hands-on Innovator
