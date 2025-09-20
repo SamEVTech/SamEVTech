@@ -5,9 +5,17 @@
 ---
 
 ## 🔋 About Me
-*ITI Electrician* turned *EV Power Electronics Specialist* at *Tata IIS Mumbai. I’m passionate about **EV Battery Systems, **BMS, **Power Electronics, and **IoT solutions. From tearing down gadgets to coding **Arduino/ESP32, I build **hands-on prototypes* that power the electric future. 🚀
+🚀 SamEVTech
 
-"Circuits are my canvas, and code is my brush – let’s electrify the world!"
+⚡ Hands-on EV Specialist | IoT Innovator | Powering the Electric Revolution ⚡
+
+👨‍🔬 About Me
+
+Hey there! 👋
+I’m Samir (SamEVTech) — passionate about Electric Vehicles, IoT systems, and sustainable innovation.
+From BMS safety systems to ESP32 IoT dashboards, I love experimenting, prototyping, and learning from every failure until I get it right.
+
+✨ “Innovation is not about big ideas, it’s about small steps done consistently.”
 
 ---
 
@@ -98,14 +106,6 @@
 - Lightweight design with *200cm range*
 - Real-world impact for accessibility
 - [Explore Project →](https://github.com/SamEVTech/Smart-Glasses-for-Blind)
-
----
-
-## 📸 My EV Lab
-<div align="center">
-  <img src="https://github.com/SamEVTech/SamEVTech/blob/main/ev_lab.jpg?raw=true" width="400" alt="EV Lab" />
-  <p><i>My workbench: Oscilloscope, BMS test bench, Arduino & ESP32 boards!</i></p>
-</div>
 
 ---
 
