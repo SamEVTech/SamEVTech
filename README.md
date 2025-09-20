@@ -131,7 +131,7 @@
   <a href="mailto:samirmulla2007@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/SamEVTech">
+  <a href="https://lnkedin.com/in/sam-evtech">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/_samir_m___">
