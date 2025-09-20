@@ -5,9 +5,9 @@
 ---
 
 ## 🔋 About Me
-*ITI Electrician* turned *EV Power Electronics Specialist* at *Tata IIS Mumbai. I’m passionate about **EV Battery Systems, **BMS, **Power Electronics, and **IoT solutions. From tearing down gadgets to coding **Arduino/ESP32, I build **hands-on prototypes* that power the electric future. 🚀
+*ITI Electrician* turned *EV Power Electronics Specialist* at *Tata IIS Mumbai. I'm passionate about **EV Battery Systems, **BMS, **Power Electronics, and **IoT solutions. From tearing down gadgets to coding **Arduino/ESP32, I build **hands-on prototypes* that power the electric future. 🚀
 
-"Circuits are my canvas, and code is my brush – let’s electrify the world!"
+"Circuits are my canvas, and code is my brush – let's electrify the world!"
 
 ---
 
@@ -65,7 +65,7 @@
 - *35% efficiency boost* with dual-axis movement
 - *IoT monitoring* via Blynk for EV charging
 - *Tested in Mumbai sunlight* with 8.4W peak output
-- [Explore Project →](https://github.com/SamEVTec/Dual-Axis-Solar-Tracker)
+- [🔗 Explore Project →](https://github.com/SamEVTec/Dual-Axis-Solar-Tracker)
 
 ### 🔋 *EV Battery Management System (BMS)*
 <img src="https://img.shields.io/badge/BMS-4CAF50?style=flat-square&logo=voltmeter&logoColor=white" alt="BMS" />
@@ -73,15 +73,15 @@
 - Tracks *voltage, current, temperature* with NTC sensors
 - *CAN Bus integration* for vehicle ECU communication
 - *Safety features*: Overcharge & thermal protection
-- [Explore Project →](https://github.com/SamEVTec/EV-BMS-Prototype)
+- [🔗 Explore Project →](https://github.com/SamEVTec/EV-BMS-Prototype)
 
 ### 📱 *iPhone Teardown Analysis*
 <img src="https://img.shields.io/badge/Teardown-FF6B35?style=flat-square&logo=tools&logoColor=white" alt="Teardown" />
 - Full *iPhone 12 disassembly* with PCB mapping
 - Analyzed *battery, BGA chips, power ICs*
 - *Repair guide* for battery replacement
-- *Learnings*: Apple’s thermal & power design
-- [Explore Project →](https://github.com/SamEVTec/iPhone-Teardown-Analysis)
+- *Learnings*: Apple's thermal & power design
+- [🔗 Explore Project →](https://github.com/SamEVTec/iPhone-Teardown-Analysis)
 
 ### 🌿 *Industrial Carbon Purification System*
 <img src="https://img.shields.io/badge/Environmental-228B22?style=flat-square&logo=leaf&logoColor=white" alt="Environmental" />
@@ -89,7 +89,7 @@
 - *Sensor array*: PM2.5, temperature, humidity
 - *Data logging* with PDF reports for efficiency
 - Built for *small-scale factories*
-- [Explore Project →](https://github.com/SamEVTec/Carbon-Purification-System)
+- [🔗 Explore Project →](https://github.com/SamEVTec/Carbon-Purification-System)
 
 ### 👓 *Smart Glasses for Visually Impaired*
 <img src="https://img.shields.io/badge/Assistive-Tech-800080?style=flat-square&logo=eye&logoColor=white" alt="Assistive Tech" />
@@ -97,13 +97,21 @@
 - *Haptic & audio feedback* for navigation
 - Lightweight design with *200cm range*
 - Real-world impact for accessibility
-- [Explore Project →](https://github.com/SamEVTec/Smart-Glasses-for-Blind)
+- [🔗 Explore Project →](https://github.com/SamEVTec/Smart-Glasses-for-Blind)
+
+### ⚡ *Transmission Line Fault Detection*
+<img src="https://img.shields.io/badge/Power-Systems-FFD700?style=flat-square&logo=bolt&logoColor=black" alt="Power Systems" />
+- *ESP32 + sensors* for real-time grid monitoring
+- *Fault detection*: Shorts, ground faults, overloads
+- *IoT alerts* via MQTT for quick response
+- *95% accuracy* within 100ms detection
+- [🔗 Explore Project →](https://github.com/SamEVTec/Transmission-Line-Fault-Detection)
 
 ---
 
 ## 📸 My EV Lab
 <div align="center">
-  <img src="https://github.com/SamEVTec/SamEVTec/blob/main/ev_lab.jpg?raw=true" width="400" alt="EV Lab" />
+  <img src="https://github.com/SamEVTec/SamEVTec/raw/main/ev_lab.jpg" width="400" alt="EV Lab" />
   <p><i>My workbench: Oscilloscope, BMS test bench, Arduino & ESP32 boards!</i></p>
 </div>
 
@@ -112,14 +120,14 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SamEVTec&show_icons=true&theme=radical&hide_border=true&title_color=00D4FF&text_color=FFFFFF&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SamEVTecE&theme=radical&hide_border=true" width="38%" />
-</div>  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SamEVTec&theme=radical&hide_border=true" width="38%" />
+</div>
 
 ---
 
 ## 🏆 Lessons from the Lab
 - *BMS is about safety first, then efficiency* 🔋
-- *ESP32’s WiFi is powerful but needs power management* 📡
+- *ESP32's WiFi is powerful but needs power management* 📡
 - *Teardowns reveal engineering secrets* 🔓
 - *Every prototype failure teaches a new trick* 💡
 - *Sustainable tech starts with small, practical solutions* 🌿
@@ -128,10 +136,10 @@
 
 ## 🌐 Connect with Me
 <div align="center">
-  <a href="mailto:samirmulla2007@gmail.com">
+  <a href="mailtosamirmulla2007@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/Sam-EVTec">
+  <a href="https://linkedin.com/in/Sam-EVTech">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/_samir_m___">
