@@ -13,6 +13,16 @@ Hey there! 👋 I’m Samir (SamEVTech), passionate about Electric Vehicles, IoT
 
 ---
 
+## 📄 Resume
+- **Education**: EV 2 & 3 Wheeler Specialist, Tata IIS Mumbai, 2025
+- **Skills**:
+  - 🔋 EV Battery Systems, BMS Design, Power Electronics
+  - 🎛️ Arduino, ESP32, C++, IoT (MQTT, Blynk)
+  - 🛠️ PCB Design, Precision Soldering, Gadget Teardown
+- **Download**: [Resume PDF](https://github.com/SamEVTech/SamEVTech/raw/main/resume.pdf) *(Add your resume PDF to your repo)*
+
+---
+
 ## 🎓 My Journey
 - 📚 *EV 2 & 3 Wheeler Specialist* @ Tata IIS Mumbai, 2025
 - 🔋 Mastering *Battery Management Systems* & *Power Electronics*
@@ -100,16 +110,6 @@ Hey there! 👋 I’m Samir (SamEVTech), passionate about Electric Vehicles, IoT
 - Lightweight design with 200cm range
 - Real-world impact for accessibility
 - [Explore Project →](https://github.com/SamEVTech/Smart-Glasses-for-Blind)
-
----
-
-## 📄 Resume
-- **Education**: EV 2 & 3 Wheeler Specialist, Tata IIS Mumbai, 2025
-- **Skills**:
-  - 🔋 EV Battery Systems, BMS Design, Power Electronics
-  - 🎛️ Arduino, ESP32, C++, IoT (MQTT, Blynk)
-  - 🛠️ PCB Design, Precision Soldering, Gadget Teardown
-- **Download**: [Resume PDF](https://github.com/SamEVTech/SamEVTech/raw/main/resume.pdf) *(Add your resume PDF to your repo)*
 
 ---
 
